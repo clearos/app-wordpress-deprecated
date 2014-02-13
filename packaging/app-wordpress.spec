@@ -14,7 +14,7 @@ Requires: app-webapp
 Requires: app-system-database-core >= 1:1.5.30
 
 %description
-Joomla is an award-winning content management system (CMS), which enables you to build web sites and powerful online applications.
+WordPress is web software you can use to create a beautiful website or blog.
 
 %package core
 Summary: WordPress - Core
@@ -25,7 +25,7 @@ Requires: app-webapp-core
 Requires: webapp-wordpress
 
 %description core
-Joomla is an award-winning content management system (CMS), which enables you to build web sites and powerful online applications.
+WordPress is web software you can use to create a beautiful website or blog.
 
 This package provides the core API and libraries.
 
@@ -40,7 +40,6 @@ cp -r * %{buildroot}/usr/clearos/apps/wordpress/
 install -d -m 0755 %{buildroot}/var/clearos/wordpress
 install -d -m 0755 %{buildroot}/var/clearos/wordpress/archive
 install -d -m 0755 %{buildroot}/var/clearos/wordpress/backup
-install -d -m 0755 %{buildroot}/var/clearos/wordpress/webroot
 install -D -m 0644 packaging/webapp-wordpress-flexshare.conf %{buildroot}/etc/clearos/flexshare.d/webapp-wordpress.conf
 install -D -m 0644 packaging/webapp-wordpress-httpd.conf %{buildroot}/etc/httpd/conf.d/webapp-wordpress.conf
 
@@ -84,7 +83,6 @@ exit 0
 %dir /var/clearos/wordpress
 %dir /var/clearos/wordpress/archive
 %dir /var/clearos/wordpress/backup
-%dir /var/clearos/wordpress/webroot
 /usr/clearos/apps/wordpress/deploy
 /usr/clearos/apps/wordpress/language
 /usr/clearos/apps/wordpress/libraries
