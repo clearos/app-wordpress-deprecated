@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/sbin/flexshare -n webapp-wordpress -a deactivate

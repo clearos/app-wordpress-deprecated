@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Create webroot
+mkdir /var/clearos/wordpress/webroot
+
+# Active Fleshare
+/usr/sbin/flexshare -n webapp-wordpress -a activate
+
+# Initialize database
+/usr/sbin/systemdb wordpress
