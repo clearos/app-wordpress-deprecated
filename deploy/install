@@ -4,7 +4,7 @@
 mkdir /var/clearos/wordpress/webroot
 
 # Active Fleshare
-/usr/sbin/flexshare -n webapp-wordpress -a activate
+/usr/sbin/flexshare -n webapp-wordpress -a activate >/dev/null 2>&1
 
 # Initialize database
 /usr/sbin/systemdb wordpress
