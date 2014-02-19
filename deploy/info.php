@@ -36,11 +36,12 @@ $app['controllers']['advanced']['title'] = lang('base_app_advanced_settings');
 
 $app['requires'] = array(
     'app-webapp',
-    'app-system-database-core >= 1:1.5.30'
+    'app-system-database >= 1:1.5.30',
 );
 
 $app['core_requires'] = array(
     'app-webapp-core',
+    'app-system-database-core >= 1:1.5.30',
     'webapp-wordpress',
 );
 
@@ -62,4 +63,3 @@ $app['core_file_manifest'] = array(
         'config_params' => 'noreplace'
     )
 );
-
