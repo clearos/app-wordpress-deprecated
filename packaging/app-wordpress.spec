@@ -1,7 +1,7 @@
 
 Name: app-wordpress
 Epoch: 1
-Version: 1.6.0
+Version: 1.6.1
 Release: 1%{dist}
 Summary: WordPress
 License: GPLv3
@@ -11,7 +11,7 @@ Buildarch: noarch
 Requires: %{name}-core = 1:%{version}-%{release}
 Requires: app-base
 Requires: app-webapp
-Requires: app-system-database >= 1:1.5.30
+Requires: app-system-database >= 1:1.6.1
 
 %description
 WordPress is web software you can use to create a beautiful website or blog.
@@ -22,7 +22,7 @@ License: LGPLv3
 Group: ClearOS/Libraries
 Requires: app-base-core
 Requires: app-webapp-core
-Requires: app-system-database-core >= 1:1.5.30
+Requires: app-system-database-core >= 1:1.6.1
 Requires: webapp-wordpress
 
 %description core
