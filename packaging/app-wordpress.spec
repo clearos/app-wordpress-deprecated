@@ -1,7 +1,7 @@
 
 Name: app-wordpress
 Epoch: 1
-Version: 1.6.5
+Version: 1.6.7
 Release: 1%{dist}
 Summary: WordPress
 License: GPLv3
