@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'wordpress';
-$app['version'] = '1.6.5';
+$app['version'] = '2.0.14';
 $app['release'] = '1';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
@@ -19,7 +19,7 @@ $app['description'] = lang('wordpress_app_description');
 
 $app['name'] = lang('wordpress_app_name');
 $app['category'] = lang('base_category_server');
-$app['subcategory'] = lang('base_subcategory_web');
+$app['subcategory'] = lang('base_subcategory_content_management_systems');
 
 /////////////////////////////////////////////////////////////////////////////
 // Controllers
