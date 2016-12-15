@@ -27,7 +27,7 @@ $app['subcategory'] = lang('base_subcategory_content_management_systems');
 
 $app['controllers']['wordpress']['title'] = $app['name'];
 $app['controllers']['settings']['title'] = lang('base_settings');
-$app['controllers']['upload']['title'] = lang('base_app_upload');
+$app['controllers']['upload']['title'] = lang('base_upload');
 $app['controllers']['advanced']['title'] = lang('base_advanced_settings');
 
 /////////////////////////////////////////////////////////////////////////////
